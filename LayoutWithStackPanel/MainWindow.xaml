@@ -16,11 +16,13 @@
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
+            <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <TextBlock Text="Your name" />
+            <TextBlock Text="Your name" Margin="5,5,5,5" />
             <TextBox Width="80"
-                     Height="Auto" />
+                     Height="Auto" 
+                     Margin="5"/>
         </StackPanel>
     </Grid>
 </Window>
